@@ -35,7 +35,9 @@ BOM (lista de componentes)
 
 -Cables hembra-macho
 
--2 potenciómetros 
+-2 selectores
+
+-2 LEDs
 
 -Protoboard
 
