@@ -5,6 +5,7 @@ CONTEXTUALIZACIÓN FPGA
 Una FPGA es un conjunto de múltiples circuitos dispuestos matricialmente, cuyas interconexiones son programables por el usuario para la aplicación requerida. En una FPGA se programa su hardware, a diferencia de los microcontroladores en los que solo existe un hardware fijo y se programa su software.
 
 Tienen un amplio espectro de aplicaciones: como industria automotriz, reconocimiento de voz, controladores de dispositivos, sistemas militares, radiotransmisores/receptores gestionados por software, computación de alto rendimiento, sistemas de emulación de hardware, equipos de investigación en medicina....  Además, tienen un papel notable en el desarrollo de sistemas integrados debido a su capacidad para iniciar el desarrollo de software del sistema simultáneamente con el hardware.
+![descarga](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/69469c70-018b-4f5e-814d-8ff38566e210)
 
 
 EL RETO
@@ -22,13 +23,13 @@ Para crear este proyecto hemos tenido que dividirlo en partes para poder complet
 BOM (lista de componentes) 
 
 FPGA Alhambra II
-Display SPI de 4 dígitos de 7 segmentos
-3 pulsadores
-3 resistencias de 10k Ω
-4 resistencias de 1k Ω
-Cables hembra-macho
-2 potenciómetros 
-Protoboard
+-Display SPI de 4 dígitos de 7 segmentos
+-3 pulsadores
+-3 resistencias de 10k Ω
+-4 resistencias de 1k Ω
+-Cables hembra-macho
+-2 potenciómetros 
+-Protoboard
 
 
 PASOS SEGUIDOS
