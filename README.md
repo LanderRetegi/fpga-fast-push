@@ -20,9 +20,7 @@ PLANIFICACIÓN INICIAL
 
 Para crear este proyecto hemos tenido que dividirlo en partes para poder completarlo. Primero realizamos un esquema para plasmar la lógica que iba a seguir nuestro juego y a partir de ahí empleamos nuestro tiempo en diferentes programas para empezar a hacer el mismo. Esos programas son principalmente Multisim (para realizar el circuito) e Icestudio para poder transferir el circuito a nuestra FPGA. Por último montamos el circuito físicamente en una protoboard ya con todo preparado para jugar en cualquier momento.
 
-![GGGGGG](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/f4ac8c35-e15e-4e3b-905b-0dd331002748)
-
-![806b2700-cc2e-11eb-92f6-f49697fc75e3](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/8ea3bdf8-2551-44cc-a4cc-3df0365ea5c9)
+![GGGGGG](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/f4ac8c35-e15e-4e3b-905b-0dd331002748) ![806b2700-cc2e-11eb-92f6-f49697fc75e3](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/8ea3bdf8-2551-44cc-a4cc-3df0365ea5c9)
 
 
 BOM (lista de componentes) 
