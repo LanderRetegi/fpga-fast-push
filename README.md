@@ -25,11 +25,17 @@ BOM (lista de componentes)
 
 FPGA Alhambra II
 -Display SPI de 4 dígitos de 7 segmentos
+
 -3 pulsadores
+
 -3 resistencias de 10k Ω
+
 -4 resistencias de 1k Ω
+
 -Cables hembra-macho
+
 -2 potenciómetros 
+
 -Protoboard
 
 
