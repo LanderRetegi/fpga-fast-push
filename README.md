@@ -23,7 +23,8 @@ Para crear este proyecto hemos tenido que dividirlo en varias partes para poder 
 
 BOM (lista de componentes) 
 
-FPGA Alhambra II
+-FPGA Alhambra II
+
 -Display SPI de 4 dígitos de 7 segmentos
 
 -3 pulsadores
