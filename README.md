@@ -55,6 +55,9 @@ Para finalizar el circuito necesitaremos las puertas lógicas. Colocamos 2 OR de
 
 ![jjjjjjjjjjjjjjjjjjjjjjjjjj](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/b9063a0c-a1f9-4e07-99a6-4e4ef95e5e53)
 
+MONTAJE
+
+![IMG20231124093025](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3922e89b-1c8a-4ce3-81c6-2206c0e96fc4)
 
 
 
