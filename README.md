@@ -58,10 +58,6 @@ Para finalizar el circuito necesitaremos las puertas lógicas. Colocamos 2 OR de
 
 ![jjjjjjjjjjjjjjjjjjjjjjjjjj](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/b9063a0c-a1f9-4e07-99a6-4e4ef95e5e53)
 
-MONTAJE
-
-![IMG20231124093025](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3922e89b-1c8a-4ce3-81c6-2206c0e96fc4)
-
 ICESTUDIO
 
 Para realizar el programa en ICEstudio hemos utilizado 4 contadores,, la pantalla SPI, anti rebotes, detectores de flancos para los pulsadores y las salidas y entradas mencionadas anteriormente. 
@@ -69,6 +65,12 @@ Para realizar el programa en ICEstudio hemos utilizado 4 contadores,, la pantall
 El juego inicia después de que con el selector indiquemos el número máximo al que deseamos llegar en el juego. Los 2 jugadores pulsaran sus botones lo más rápido que puedan hasta llegar al número seleccionado. Cuando el jugador mas rapido llegue al número, se bloquearan los contadores y se quedara marcado el numero en el que están. Cuando finalice se encenderá una led verde al lado del ganador.
 
 ![Pulsar rapido](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/2d050330-d5a4-4662-b007-314997af7ddb)
+
+MONTAJE
+
+![IMG20231124093025](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3922e89b-1c8a-4ce3-81c6-2206c0e96fc4)
+
+
 
 
 
