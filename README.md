@@ -68,7 +68,8 @@ El juego inicia después de que con el selector indiquemos el número máximo al
 
 MONTAJE
 
-![IMG20231124093025](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3922e89b-1c8a-4ce3-81c6-2206c0e96fc4)
+![IMG20231124093020](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3f6e885d-0b51-4881-8bc8-00af721f329a)
+
 
 
 
