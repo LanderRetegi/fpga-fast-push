@@ -60,7 +60,7 @@ Para finalizar el circuito necesitaremos las puertas lógicas. Colocamos 2 OR de
 
 ICESTUDIO
 
-Para realizar el programa en ICEstudio hemos utilizado 4 contadores,, la pantalla SPI, anti rebotes, detectores de flancos para los pulsadores y las salidas y entradas mencionadas anteriormente. 
+Para realizar el programa en ICEstudio hemos utilizado 4 contadores, la pantalla SPI, anti rebotes, detectores de flancos para los pulsadores y las salidas y entradas mencionadas anteriormente. 
 
 El juego inicia después de que con el selector indiquemos el número máximo al que deseamos llegar en el juego. Los 2 jugadores pulsaran sus botones lo más rápido que puedan hasta llegar al número seleccionado. Cuando el jugador mas rapido llegue al número, se bloquearan los contadores y se quedara marcado el numero en el que están. Cuando finalice se encenderá una led verde al lado del ganador.
 
