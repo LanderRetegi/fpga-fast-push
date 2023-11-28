@@ -74,7 +74,9 @@ Por último completamos el montaje físico del juego en una protoboard gracias a
 
 ![IMG20231124093020](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3f6e885d-0b51-4881-8bc8-00af721f329a)
 
+# MEJORAS
 
+Para mejorar el juego se pueden implementar varias ideas como por ejemplo introducir un buzzer que suene cuando un jugador gane. U otro selector para poder elegir los números del 0 al 99, ya que al tener pines limitados solo podemos seleccionar de 10 en 10 los numeros mediante un único selector.  También se podria añadir un display para mostrar la mejor puntuación hasta el momento o cualquier idea futura que pueda aportar al juego .
 
 
 
