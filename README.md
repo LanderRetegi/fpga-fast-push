@@ -68,7 +68,7 @@ El juego inicia después de que con el selector indiquemos el número máximo al
 
 # MONTAJE
 
-Por último realizamos el montaje físico en una protoboard gracias a los pines de la FPGA.
+Por último completamos el montaje físico del juego en una protoboard gracias a los pines de la FPGA.
 
 ![IMG20231124093020](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/3f6e885d-0b51-4881-8bc8-00af721f329a)
 
