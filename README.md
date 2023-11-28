@@ -76,7 +76,7 @@ Por último completamos el montaje físico del juego en una protoboard gracias a
 
 # MEJORAS
 
-Para mejorar el juego se pueden implementar varias ideas como por ejemplo introducir un buzzer que suene cuando un jugador gane. U otro selector para poder elegir los números del 0 al 99, ya que al tener pines limitados solo podemos seleccionar de 10 en 10 los numeros mediante un único selector.  También se podria añadir un display para mostrar la mejor puntuación hasta el momento o cualquier idea futura que pueda aportar al juego .
+Para mejorar el juego se pueden implementar varias ideas como por ejemplo introducir un buzzer que suene cuando un jugador gane. U otro selector para poder elegir los números del 0 al 99, ya que al tener pines limitados solo podemos seleccionar de 10 en 10 los numeros mediante un único selector.  También se podria añadir un display para mostrar la mejor puntuación hasta el momento o cualquier ocurrencia futura que pueda aportar al juego .
 
 
 
