@@ -16,7 +16,7 @@ En nuestro caso hemos realizado un pequeño juego gracias al FPGA. El juego lo h
 
 # DESARROLLO
 
-Para crear este proyecto hemos tenido que dividirlo en varias partes para poder completarlo. Primero realizamos un esquema para plasmar la lógica que iba a seguir nuestro juego y a partir de ahí empleamos nuestro tiempo en diferentes programas para empezar a hacer el mismo. Esos programas son principalmente Multisim (para realizar el circuito) e Icestudio para poder transferir el circuito a nuestra FPGA. Por último montamos el circuito físicamente en una protoboard ya con todo preparado para jugar en cualquier momento.
+Para crear este proyecto hemos tenido que dividirlo en varias partes para poder completarlo. Primero realizamos un esquema para plasmar la lógica que iba a seguir nuestro juego y a partir de ahí empleamos nuestro tiempo en diferentes programas para empezar a hacer el mismo. Esos programas son principalmente Multisim (para realizar el circuito) e Icestudio para poder transferir el circuito a nuestra FPGA. Por último montamos dicho circuito físicamente en una protoboard ya con todo preparado para jugar en cualquier momento.
 
 ![GGGGGG](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/f4ac8c35-e15e-4e3b-905b-0dd331002748) ![806b2700-cc2e-11eb-92f6-f49697fc75e3](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/8ea3bdf8-2551-44cc-a4cc-3df0365ea5c9)
 
@@ -46,7 +46,7 @@ Para crear este proyecto hemos tenido que dividirlo en varias partes para poder 
 
 Para realizar el juego hemos creado el circuito en Multisim. En dicho circuito hemos implementado los componentes virtuales necesarios, 3 pulsadores, 2 interruptores de 4, 4 displays de 7 segmentos, 4 contadores (2 para cada jugador), 2 decodificadores y algunas puertas lógicas( 3 AND y 2 OR).
 
-El primer paso es colocar los dos pulsadores pull down, uno para cada jugador. Para evitar los rebotes usaremos condensadores y disparadores Schmitt. Además de estos botones utilizamos otro como iniciador/reset con su respectiva resistencia. El selector de pulsaciones se realiza con los 2 interruptores de 4.
+El primer paso es colocar los dos pulsadores pull down, uno para cada jugador. Para evitar los rebotes usamos condensadores y disparadores Schmitt. Además de estos botones utilizamos otro como iniciador/reset con su respectiva resistencia. El selector de pulsaciones se realiza con los 2 interruptores de 4.
 
 El siguiente paso es el de los contadores. Cada uno tiene 4 entradas y 4 salidas. Los 2 interruptores de 4 se conectan a las entradas de los 4 contadores. El primer interruptor al primer contador de cada jugador y el segundo al segundo contador de cada uno. El interruptor de inicio/reset se conecta a cada “load” de cada contador para poder resetear o cargar el número que queramos en cualquier momento. 
 
@@ -54,7 +54,7 @@ El “up” de cada contador se une al vcc de 5V mientras que el “down” de l
 
 Las 4 salidas de los contadores se conectan a los decodificadores que a su vez van a los displays. Los decodificadores tienen otras 3 entradas llamadas “LT” “RBI” y “BI”. Dos se unen a los 5V y uno que es el “RBI”a tierra.
 
-Para finalizar el circuito necesitaremos las puertas lógicas. Colocamos 2 OR de 8 entradas (las 4 salidas de cada contador) y se unen mediante un AND que se dirige al “down” de cada contador que controla la segunda cifra del display.
+Para finalizar el circuito necesitamos las puertas lógicas. Colocamos 2 OR de 8 entradas (las 4 salidas de cada contador) y se unen mediante un AND que se dirige al “down” de cada contador que controla la segunda cifra del display.
 
 ![jjjjjjjjjjjjjjjjjjjjjjjjjj](https://github.com/LanderRetegi/fpga-fast-push/assets/151746072/b9063a0c-a1f9-4e07-99a6-4e4ef95e5e53)
 
